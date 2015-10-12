@@ -1,0 +1,16 @@
+mkpl <- function() {
+    exts <- rnorm(300)
+    
+    for(i in 1:300){
+        exts <- diff(exts)
+        if(i<10) 
+            png(file=paste("plot00",i,".png",sep=""))
+        if(i>=10 && i < 100) 
+            png(file=paste("plot0",i,".png",sep=""))
+        if(i>=100 && i <= 300)
+            png(file=paste("plot",i,".png",sep=""))
+        
+        plot(extx)
+        dev.off()
+    }
+}
