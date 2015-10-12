@@ -4,4 +4,4 @@ OUTPUT = diffs.gif
 
 all:
 	Rscript gendifplots.R
-	convert *.png $(DELAY) $(LOOP) $(OUTPUT) 
+	convert pngs\/*.png $(DELAY) $(LOOP) $(OUTPUT) 
