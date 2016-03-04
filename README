@@ -1,5 +1,2 @@
-Copyright Segev Malool
 
-Requirements: R, ImageMagick
-
-gendifplots.R makes a bunch of png images and Makefile rund gendifplots.R and produces the animation.
+gendifplots.R makes a bunch of png images and Makefile runs gendifplots.R and produces the animation.
