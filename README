@@ -1,2 +1,4 @@
 #Iterated Differences
-The motivation here was to visualize the effects of repeated differencing of a discrete time series. The result was smoothing.
+The motivation here was to visualize the effects of repeated differencing of a discrete time series.
+The result was a complicated smoothing with an interesting dual structure, perhaps suggesting a 
+connection to complex numbers and chaos. 
