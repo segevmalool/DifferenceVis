@@ -1,2 +1,2 @@
-
-gendifplots.R makes a bunch of png images and Makefile runs gendifplots.R and produces the animation.
+#Iterated Differences
+The motivation here was to visualize the effects of repeated differencing of a discrete time series. The result was smoothing.
