@@ -4,5 +4,5 @@ with mean zero and homogeneous variance. If you're curious about the code you ca
 ideas for making animations using R. The Makefile contains the call to ImageMagick used to make the gif.
 
 The motivation was to visualize the effects of repeated differencing of a discrete time series. The result was a complicated 
-smoothing with an interesting dual structure, perhaps suggesting a connection between symmetric distributions and complex numbers. 
+smoothing with an interesting dual structure, perhaps suggesting a connection between symmetric distributions and complex numbers. Also, the ordinate values decrease drastically, so this process could be conceptualized as a (sort of) "zooming in" on the series.
 
